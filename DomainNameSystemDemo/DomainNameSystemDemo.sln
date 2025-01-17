@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34902.65
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HttpClientClassDemo-WPF", "HttpClientClassDemo-WPF.csproj", "{1F85ECC0-6791-4E50-AB84-B0093F9B866D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DomainNameSystemDemo", "DomainNameSystemDemo.csproj", "{DF38BCAF-11D4-4108-A2F0-C32DC061E0E2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{1F85ECC0-6791-4E50-AB84-B0093F9B866D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1F85ECC0-6791-4E50-AB84-B0093F9B866D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1F85ECC0-6791-4E50-AB84-B0093F9B866D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1F85ECC0-6791-4E50-AB84-B0093F9B866D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF38BCAF-11D4-4108-A2F0-C32DC061E0E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF38BCAF-11D4-4108-A2F0-C32DC061E0E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF38BCAF-11D4-4108-A2F0-C32DC061E0E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF38BCAF-11D4-4108-A2F0-C32DC061E0E2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {9A40FE2F-03DC-4A51-8A91-DFD0F0B3DD8D}
+		SolutionGuid = {6F92297B-EDDC-4D30-AD3B-E56A9A90296C}
 	EndGlobalSection
 EndGlobal
