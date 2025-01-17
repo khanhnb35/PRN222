@@ -1,0 +1,88 @@
+# Ignore build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa]rtifacts/
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Mono auto-generated files
+mono_crash.*
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Application Insights local debug session
+*.idh
+
+# Visual Studio cache and config files
+.vs/
+.vscode/
+
+# Build directories
+bin/
+obj/
+out/
+
+# Uncomment if you have tasks that create the following file types
+# *.dll
+# *.exe
+# *.log
+# *.sql
+# *.sqlite
+
+# Uncomment if you have tasks that create the following directories
+# Generated/
+# Packages/
+
+# JetBrains Rider
+.idea/
+*.sln.iml
+
+# Rider shared temporary files
+**/*.DotSettings.user
+
+# Local history for JetBrains IDEs
+.idea/.idea.LocalHistory/
+
+# Coverlet Coverage Results
+coverage.opencover.xml
+coverage.cobertura.xml
+
+# NUnit
+*.VisualState.xml
+TestResult.xml
+
+# Build Logs
+msbuild.log
+
+# Rider caches
+.idea
+
+# Dependency directories
+packages/
+node_modules/
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# SQL Server Management Studio
+*.v12.suo
+
+# Others
+*.swp
+*.bak
+*.tmp

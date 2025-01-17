@@ -1,0 +1,40 @@
+﻿<Window x:Class="Lab2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Lab2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="600">
+    <Grid Margin="10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="Auto" />
+        </Grid.ColumnDefinitions>
+
+        <!-- URL TextBox -->
+        <TextBox Name="UrlTextBox" Grid.Row="0" Grid.Column="0" Margin="5" Height="25" 
+                 VerticalAlignment="Center" ToolTip="Enter URL here" />
+
+        <!-- Fetch Data Button -->
+        <Button Name="FetchButton" Grid.Row="0" Grid.Column="1" Margin="5" Width="100" Height="25" 
+                Content="Fetch Data" Click="FetchButton_Click" />
+
+        <!-- Fetched Content TextBox -->
+        <TextBox Name="ContentTextBox" Grid.Row="1" Grid.ColumnSpan="2" Margin="5" 
+                 VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Auto" 
+                 TextWrapping="Wrap" AcceptsReturn="True" IsReadOnly="True" Height="200" />
+
+        <!-- Buttons Row -->
+        <StackPanel Orientation="Horizontal" Grid.Row="3" Grid.ColumnSpan="2" HorizontalAlignment="Right" Margin="5">
+            <Button Name="ClearButton" Content="Clear" Width="75" Height="30" Margin="5" Click="ClearButton_Click" />
+            <Button Name="CloseButton" Content="Close" Width="75" Height="30" Margin="5" Click="CloseButton_Click" />
+        </StackPanel>
+    </Grid>
+</Window>
